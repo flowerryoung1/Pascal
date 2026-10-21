@@ -8,7 +8,7 @@ begin
 	  if b=0 then    
 	     begin
             if c=0 then
-              writeln('infinitä de solution')
+              writeln('infinit≈† de solution')
             else
               writeln('solution impossible');
          end     

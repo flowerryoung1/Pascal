@@ -10,7 +10,7 @@ begin
 	  writeln('Entrer les valeurs de A[' , I  , ']: ');
 	   readln(A[I]);
   end;
-  writeln('Donner la position … supprimer');
+  writeln('Donner la position Ã  supprimer');
   readln(P);
   if (P>=1) and (P<=N) then 
   begin

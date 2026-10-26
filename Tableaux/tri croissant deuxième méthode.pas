@@ -18,8 +18,8 @@ begin
              temp:=A[I];
              A[I]:=A[J];
              A[J]:=temp;
-                        end;
-writeln('Le tableau tri‚ par ordre croissant est:');
+         end;
+writeln('Le tableau triâ€š par ordre croissant est:');
 for I:=1 to N do
 writeln(A[I]);
 end.

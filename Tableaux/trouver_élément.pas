@@ -6,10 +6,10 @@ A:Array[1..N] of integer;
 I,E:integer;
 trouve:boolean;
 begin
-	writeln('Entrer les ‚l‚ments du tableau:');
+	writeln('Entrer les â€šlâ€šments du tableau:');
 	for I:=1 to N do
 	readln(A[I]);
-	writeln('Donner la valeur de E recherch‚');
+	writeln('Donner la valeur de E recherchâ€š');
 	readln(E);
 	I:=1;
 	trouve:=false;

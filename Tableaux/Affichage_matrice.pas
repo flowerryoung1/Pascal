@@ -13,7 +13,7 @@ begin
          readln(A[I,J]);
      end;
      
-   writeln('‚l‚ments de la matrice');
+   writeln('éléments de la matrice');
    for I:= 1 to M do
    begin
    	  for J:=1 to N do

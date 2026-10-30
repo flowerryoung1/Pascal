@@ -5,10 +5,10 @@ car:char;
 begin
 	N:=0;
   repeat
-  writeln('Entrer un caractäre:');
+  writeln('Entrer un caract≈†re:');
   readln(car);
     if car= 'A'  then
      N:=N+1;
   until ( car =  '*');
- writeln('apparition du caractäre A est :',N);
+ writeln('apparition du caract√®re A est :',N);
 end.

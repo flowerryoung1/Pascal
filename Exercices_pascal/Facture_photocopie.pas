@@ -16,5 +16,5 @@ begin
 	     mont:=P1*10+P2*(Nb-10)
 	    else
 	      mont:=P1*10+P2*20+P3*(Nb-30);
- 	writeln('Le montant totale … payer est:' ,mont:0:0 , ' Da');
+ 	writeln('Le montant totale â€¦ payer est:' ,mont:0:0 , ' Da');
 end.

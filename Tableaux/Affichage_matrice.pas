@@ -8,7 +8,7 @@ I,J:integer;
 begin
 	for I:= 1 to M do 
 	begin
-      writeln('éléments de la ligne:', I);
+      writeln('Donner les éléments de:', I);
       for J:=1 to N do
          readln(A[I,J]);
      end;

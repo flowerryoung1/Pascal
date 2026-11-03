@@ -11,7 +11,7 @@ begin
 	  writeln('Entrer les valeurs de A', '[' , I , '] :' );
 	  readln(A[I]);
   end;
-  writeln('Donner un ‚l‚ment … ins‚rer:');
+  writeln('Donner un Ã©lÃ©ment Ã  insÃ©rer:');
   readln(E);
   writeln('Donner sa position:');
   readln(P);
@@ -20,7 +20,7 @@ begin
      A[I+1]:=A[I];
     end;
     A[P]:=E;
-    writeln('Le tableau aprŠs insertion est:');
+    writeln('Le tableau aprÃ©s insertion est:');
   for I:= 1 to N do 
   write(A[I], '    ');
 end.

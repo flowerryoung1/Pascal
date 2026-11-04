@@ -13,14 +13,14 @@ begin
 	writeln('Veuillez remplir la matrice:');
 	for I:=1 to N do
 	begin
-	  writeln('Entrer les ‚l‚ments de A[' ,I, ']:');
+	  writeln('Entrer les Ã©lÃ©ments de A[' ,I, ']:');
 	  for J:=1 to M do
 	  begin
 	     readln(A[I,J]);
 	     S:=S+ A[I,J] 
        end;
      end;
-   writeln('Les ‚l‚ments de la matrice');
+   writeln('Les Ã©lÃ©ments de la matrice');
     for I:=1 to N do 
     begin
         for J:=1 to M do
@@ -40,7 +40,7 @@ min:=A[1,1];
              min:= A[I,J];
          end;
      end;    
-    writeln('Le ‚l‚ments du vecteur sont:'); 
+    writeln('Les Ã©lÃ©ments du vecteur sont:'); 
          T[1]:=max; 
          T[2]:=min;
          T[3]:=moy; 

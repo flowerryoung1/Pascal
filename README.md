@@ -13,4 +13,5 @@ Bienvenue sur mon dépôt de travaux pratiques et exercices en langage Pascal !
   - Nombre d'occurrences d'un élément
   - Matrice identité
   - Matrice triangulaire supérieure
+  - Somme des produits d'un vecteur
 

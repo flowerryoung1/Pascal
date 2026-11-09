@@ -5,7 +5,7 @@ var
 V,R:Array[1..N]of integer;
 Position,I,J:integer;
 begin
-writeln('Entrer les ‚l‚ments du vecteur: ');
+writeln('Entrer les â€šlâ€šments du vecteur: ');
 for I:=1 to N do 
   readln(V[I]);
     j:=1;
@@ -23,7 +23,7 @@ for I:=1 to N do
           J:=J+1;
        end;   
    writeln('La position du dernier multiple de 5 dans R est: ', Position);
-   writeln('Les ‚l‚ments du vecteur sont:');
+   writeln('Les â€šlâ€šments du vecteur sont:');
    for I:=1 to N do 
     write(R[I], ' ' );
 end.

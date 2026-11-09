@@ -15,4 +15,5 @@ Bienvenue sur mon dépôt de travaux pratiques et exercices en langage Pascal !
   - Matrice triangulaire supérieure
   - Somme des produits d'un vecteur
   - Traitement matrice et vecteur à la fois
+  - Transposition d'une matrice 
 

@@ -13,11 +13,11 @@ enregpoints=record
  	compteur:=0;
  	for I:=1 to N do
  	begin
- 		writeln('Donner les cordonn‚es du point ' , I);
+ 		writeln('Donner les cordonnâ€šes du point ' , I);
  		readln(point[I].abscisse, point[I].ordonnee);
  	end;	
- 	{Nø des points situ‚s sur l'axe des abscisses }
- 	writeln('Les num‚ros des points situ‚s sur l axe des abscisses sont:');
+ 	{NÃ¸ des points situâ€šs sur l'axe des abscisses }
+ 	writeln('Les numâ€šros des points situâ€šs sur l axe des abscisses sont:');
  	for I:=1 to N do 
  	 if (point[I].ordonnee=0) then
  	    begin
@@ -25,13 +25,13 @@ enregpoints=record
  	     compteur:=compteur+1;
  	    end;
       if (compteur =0) then
- 	     writeln('Il n y a aucun point situ‚ sur l axe des abscisses');
- 	{Nø des points formant des segments perpendiculaires sur l'axe des ordonn‚es}
+ 	     writeln('Il n y a aucun point situâ€š sur l axe des abscisses');
+ 	{NÃ¸ des points formant des segments perpendiculaires sur l'axe des ordonnâ€šes}
  	for I:=1 to N-1 do 
  	  for J:=I+1 to N do
  	  if(point[I].ordonnee = point[J].ordonnee)then
- 	writeln('Les points:', I , ' et ' , J , ' forment un segment perpendiculaire sur l axe des ordonn‚es');
-  	{Cordonn‚es des points formant le plus long segment}
+ 	writeln('Les points:', I , ' et ' , J , ' forment un segment perpendiculaire Ã  l axe des ordonnâ€šes');
+  	{Cordonnâ€šes des points formant le plus long segment}
   	longMax:=0;
   	for I:=1 to N-1 do 
   	begin
@@ -50,11 +50,11 @@ enregpoints=record
            end;
          end;
  	 end;
-writeln('Les num‚ros des points formant le plus long segment sont:', P1 , ' et ' , P2);
-writeln('Les cordonn‚es du point:' , P1);
+writeln('Les numâ€šros des points formant le plus long segment sont:', P1 , ' et ' , P2);
+writeln('Les cordonnâ€šes du point:' , P1);
 writeln('abscisse=' , point[P1].abscisse:0:2);
 writeln('ordonnee=' , point[P1].ordonnee:0:2);
-writeln('Les cordonn‚es du point:' , P2);
+writeln('Les cordonnâ€šes du point:' , P2);
 writeln('abscisse=' , point[P2].abscisse:0:2);
 writeln('ordonnee=' , point[P2].ordonnee:0:2);
 end.

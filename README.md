@@ -16,4 +16,5 @@ Bienvenue sur mon dépôt de travaux pratiques et exercices en langage Pascal !
   - Somme des produits d'un vecteur
   - Traitement matrice et vecteur à la fois
   - Transposition d'une matrice 
-
+- **Enregistrements**
+- **Sous-programmes**
